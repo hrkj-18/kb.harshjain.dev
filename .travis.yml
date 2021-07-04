@@ -5,7 +5,7 @@ python: 3.8 # Set the version of Python to use
 branches: master # Set the branch to build from
 
 install:
-    - pip install mkdocs==1.2.1 mkdocs-material==7.1.9 pygments==2.9.0 pymdown-extensions==8.2
+    - pip install mkdocs==1.0.4 mkdocs-material==7.1.9 pygments==2.9.0 pymdown-extensions==8.2
 
 before_deploy:
     - mkdocs build --verbose --clean --strict # Build a local version of the docs
