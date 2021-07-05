@@ -1,5 +1,60 @@
 site_name: KnowledgeBase
 site_url: https://kb.harshjain.dev/
+site_dir: "build/"
+edit_uri: ""
+copyright: "© Harsh Jain"
+site_author: "Harsh Jain"
+site_description: "My knowledgebase"
+
+
 theme:
   name: material
-site_dir: "build/"
+  language: "en"
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/git-alt
+  features:
+  - navigation.instant
+  - navigation.tracking
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - search.suggest
+  - search.highlight
+  - search.share
+
+# Repo Details
+repo_url: "https://github.com/hrkj-18/kb.harshjain.dev"
+repo_name: hrkj-18/kb.harshjain.dev
+
+plugins:
+  - search:
+      lang: en
+
+# Extra Configuration for Material Theme
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: "https://github.com/hrkj-18"
+      name: Harsh Jain on Github
+    - icon: fontawesome/brands/twitter
+      link: "https://twitter.com/hrkj-18"
+      name: Harsh Jain on Twitter
+    - icon: fontawesome/brands/linkedin
+      link: "https://linkedin.com/in/hrkj-18"
+      name: Harsh Jain on Linkedin
+    - icon: fontawesome/brands/facebook
+      link: "https://facebook.com/hrkj-18"
+      name: Harsh Jain on Facebook
+    - icon: fontawesome/brands/instagram
+      link: "https://instagram.com/hrkj-18"
+      name: Harsh Jain on Instagram
+    # - icon: fontawesome/brands/terminal
+    #   link: "https://harshjain.dev"
+    #   name: Harsh Jain
+  feature:
+    tabs: true
+
+#  analytics:
+#   provider: google
+#   property: UA-XXXXXXXX-X
