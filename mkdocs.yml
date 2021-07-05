@@ -1,5 +1,5 @@
-site_name: My Docs
-site_url: https://example.com/
+site_name: KnowledgeBase
+site_url: https://kb.harshjain.dev/
 theme:
   name: material
 site_dir: "build/"
