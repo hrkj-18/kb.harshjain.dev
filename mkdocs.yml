@@ -21,6 +21,14 @@ theme:
   - search.suggest
   - search.highlight
   - search.share
+  
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+
 
 # Repo Details
 repo_url: "https://github.com/hrkj-18/kb.harshjain.dev"
@@ -58,3 +66,26 @@ extra:
 #  analytics:
 #   provider: google
 #   property: UA-XXXXXXXX-X
+
+# Page tree
+nav:
+  - Home: index.md
+  - Python:
+    - Introduction to Python:
+      - Python Basics: python/introduction-to-python/python-basics/index.md
+      - Python Lists: python/introduction-to-python/python-lists/index.md
+      - Functions and Packages: python/introduction-to-python/functions-and-packages/index.md
+      - Numpy: python/introduction-to-python/numpy/index.md
+  - Pandas:
+    - Chapter 1: pandas/chapter-1.md
+    - Chapter 2: pandas/chapter-2.md  
+  - Chatbots:
+    - Chatbots 101: chatbots/chatbots101.md
+  - Statistics:
+    - Index: statistics/index.md
+  - Spreadsheets:
+    - Basics: spreadsheets/basics.md
+    - Formulas Part 1: spreadsheets/formulas-1.md
+    - Formulas Part 2: spreadsheets/formulas-2.md
+    - Formulas Part 3: spreadsheets/formulas-3.md
+    - Errors: spreadsheets/errors.md
