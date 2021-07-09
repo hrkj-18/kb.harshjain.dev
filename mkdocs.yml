@@ -9,6 +9,7 @@ site_description: "My knowledgebase"
 
 theme:
   name: material
+  custom_dir: material
   language: "en"
   icon:
     logo: material/library
@@ -21,13 +22,27 @@ theme:
   - search.suggest
   - search.highlight
   - search.share
-  
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: pink
+      accent: pink 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
   favicon: assets/favicon.png
   icon:
     logo: logo
+
+  
 
 
 # Repo Details
